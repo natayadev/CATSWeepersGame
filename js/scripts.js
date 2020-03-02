@@ -36,7 +36,6 @@
 					}else{
 						divObj.style.backgroundImage = "url(img/bomba.jpg)";
 						abrirTablero(minas);
-						alert("Perdiste =(");
 					}
 				}
 			}
@@ -169,3 +168,4 @@
              }
          }
      }
+// COMBAK: "https://api.giphy.com/v1/gifs/random?api_key=gH7glaXpjdIJUfGdtE2GO5FSQzi09bbY&tag=Cat&rating=G"; 

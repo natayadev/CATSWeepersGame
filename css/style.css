@@ -1,5 +1,6 @@
 body {
-  background-color: #eee47a;
+  background: rgb(220,217,248);
+  background: linear-gradient(180deg, rgba(220,217,248,1) 20%, rgba(181,220,249,1) 80%);
 }
 
 .tablero{
@@ -13,11 +14,22 @@ body {
   height: 50px;
   border: 1px solid white;
   float: left;
-  background-color: pink;
+  background-color: #e5bedd;
   text-align: center;
 }
 
 h1 {
-  font-family: sans-serif;
-  margin-left: 33%;
+  text-align: center;
+  padding: 40px;
+}
+
+.gifleft {
+  position: fixed;
+  left: 0;
+}
+
+.gitright {
+  position: fixed;
+  right: 0;
+
 }
