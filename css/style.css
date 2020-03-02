@@ -1,0 +1,23 @@
+:root {
+  --color-1: #c3e9ec;
+  ..color-2: #c0ddbf;
+  --color-3: #879e8a;
+  --color-4: #dd8790;
+  --color-5: #fcc7cd:
+}
+
+body {
+  background-color: var(--color-1);
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.tablero {
+  width: 416px;
+  height: 416px;
+  border: 1px solid pink;
+  background-color: var(--color-4);
+  margin-left: 33%;
+  margin-top: 120px;
+}
