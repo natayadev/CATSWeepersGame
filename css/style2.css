@@ -1,0 +1,71 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-color: #a04bf6;
+  color: #FFF;
+  text-align: center;
+}
+
+.game {
+  background-image: url(../images/bg2.jpg);
+  border-radius: 5%;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: pink;
+  border-color: purple;
+  color: purple;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: purple;
+  color: purple;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: white;
+  border-color: pink;
+  color: pink;
+}
+
+.masthead {
+  background-image: url(../images/bg1.jpg);
+  background-size: cover;
+  padding-top: 0%;
+  width: 100%;
+  height: 450px;
+}
+
+#emojiL {
+  width: 25px;
+  height: 25px;
+}
+
+#emojiR {
+  width: 25px;
+  height: 25px;
+  transform: rotateY(180deg);
+}
+
+i {
+  font-size: 20px;
+}
+
+button {
+  margin: auto;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+}
+
+.cards {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

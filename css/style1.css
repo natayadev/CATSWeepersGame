@@ -1,12 +1,8 @@
-body {
-  background: rgb(220,217,248);
-  background: linear-gradient(180deg, rgba(220,217,248,1) 20%, rgba(181,220,249,1) 80%);
-}
-
 .tablero{
   width: 416px;
   height: 416px;
-  margin-left: 33%;
+  margin: 3%;
+  color: purple;
 }
 
 .tablero div{
@@ -16,11 +12,6 @@ body {
   float: left;
   background-color: #e5bedd;
   text-align: center;
-}
-
-h1 {
-  text-align: center;
-  padding: 40px;
 }
 
 .gifleft {

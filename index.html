@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style1.css">
+
     <title>CATSweepers Game!</title>
 
     <script src="js/scripts.js"></script>
-
   </head>
 
   <body onload="cargarTablero();">
-    <h1> CATSweepers Game!</h1>
-    <div id="tablerominas" class="tablero">
 
+    <div class="masthead">
     </div>
 
-    <div class="gifleft">
-      <img id="gif" src"" width="200px">
-    </div>
+    <br><h1>CATSWeepers Game!</h1>
 
-    <div class="gifleft">
-      <img id="gif" src"" width="200px">
+    <img id="emojiL" src="images/magicwand.png">
+    <i>Juego del buscaminas... ahora con gatos...</i>
+    <img id="emojiR" src="images/magicwand.png"><br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
         </div>
+        <div class="col-8 game">
+          <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+              <div id="tablerominas" class="tablero">
+              </div><br>
+              <p><input type="button" value="Volver a jugar" onclick="location.reload()" class="btn btn-primary"></input>
+              </p>
+            </div>
+            <div class="col">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+        </div>
+      </div>
+    </div>
   </body>
 
     <script>
@@ -31,7 +53,6 @@
         generarBombas(minas);
         bombasAlrededor(minas);
       }
-
     </script>
 
 </html>

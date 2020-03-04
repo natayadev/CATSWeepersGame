@@ -1,0 +1,23 @@
+{
+  "name": "catsweepersgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natayafs/CATSWeepersGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natayafs/CATSWeepersGame/issues"
+  },
+  "homepage": "https://github.com/natayafs/CATSWeepersGame#readme",
+  "dependencies": {
+    "electron": "^8.0.3"
+  }
+}
