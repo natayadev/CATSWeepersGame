@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/natayafs/CATSWeepersGame#readme",
   "dependencies": {
-    "electron": "^9.4.0"
+    "electron": "^22.3.25"
   }
 }
